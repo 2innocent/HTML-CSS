@@ -1,0 +1,151 @@
+header {
+  
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: black;
+  position: fixed;
+  top: 0px;
+  left: 5px;
+  right: 5px;
+}
+div.inside{
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: black;
+  margin-top: 124px;
+  width: auto;
+}
+
+.topper{
+  width: 100%;
+  height: 80px;
+  border-width: 5px;
+  border-color: black;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  }
+div.notice {
+  color: brown;
+  margin-right: 10px;
+  flex: 1;
+  height: 200px;
+  text-align: center;
+  font-size: larger;
+  font: 2em sans-serif;
+  border-width: 5px;
+  border-color: rgb(36, 220, 245);
+
+  
+
+}
+div.search{
+  display: flex;
+  flex: 1;
+}
+form.example {
+
+  color: brown;
+  margin-right: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+
+}
+div.search form.example input{
+  border-width: medium;
+  height: 30px;
+  align-self: center;
+  margin-top: 5px;
+  min-width: 200px;
+  max-width: 500px;
+  display: flex;
+  flex: 1;
+}
+
+div.search form.example button{
+  border-width: medium;
+  height: 30px;
+  align-self: center;
+  margin-top: 5px;
+  display: flex;
+  width: 40px;
+}
+div.profile{
+  color: brown;
+  margin-right: 10px;
+  width: 300px;
+  flex: 1;
+}
+.top{
+  background-color: rgb(179, 146, 209);
+}
+  
+.wrap {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    font-size: 30px;
+    }
+      
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+      
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+    }
+
+.typing {
+    display: flex;
+    }
+
+.foot{
+  height: 20px;
+  background-color: rgb(98, 98, 211);
+  border-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: solid;
+  border-radius: 10px;
+  background-color: rgb(174, 174, 241);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+a {
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: center;
+  font-size: 15px;
+  text-align: justify;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  font-size: larger;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.marq {
+  margin-left: 5px;
+  margin-top: 4px;
+  align-items: center;
+  font-size: 15px;
+  text-align: justify;
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+  margin-bottom: 4px;
+  color: #05030e;
+}
